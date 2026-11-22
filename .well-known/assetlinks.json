@@ -1,6 +1,20 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "bir001.github.io",
+      "sha256_cert_fingerprints": [
+        "D6:56:69:CE:74:6F:2F:26:88:61:BF:31:9B:9B:80:7C:FD:3D:AB:07:86:91:6F:E5:0C:22:D1:E6:8B:45:D6:AB"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "io.github.bir001.billora",
